@@ -1,0 +1,49 @@
+.caja {
+      height: 120px;
+      background-color: lightgray;
+      text-align: center;
+      padding-top: 40px;
+      font-weight: bold;
+      border: 1px solid #ccc;
+    }
+
+
+#caja1 {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+}
+
+#caja2 {
+  background-color: rgb(17, 0, 254);
+  height: 30px;
+}
+
+#caja3 {
+  background-color: rgb(254, 0, 0);
+  height: 300px;
+}
+
+#caja4 {
+  background-color: rgb(254, 0, 169);
+  height: 300px;
+}
+
+#caja5 {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+}
+
+#caja6 {
+  background-color: rgb(53, 41, 77);
+  height: 30px;
+}
+
+#caja7 {
+  background-color: rgb(0, 246, 254);
+  height: 30px;
+}
+
+#cajapubli {
+  background-color: rgb(104, 2, 120);
+  height: 360px;
+}

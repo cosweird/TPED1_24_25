@@ -1,0 +1,29 @@
+
+        div {
+            box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+        }
+       .arriba {
+            background-color: aqua;
+            height: 10vh;
+        }
+        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 50%;  /* se aplica desde min-width desde 768px */
+            }
+        }        
+        .derecha{
+
+            background-color: red;
+            height: 80vh;
+        }
+        .izquierda{
+
+            background-color: blue;
+            height: 80vh;
+        }
+.bajo{
+
+    background-color: blueviolet;
+    height: 10vh;
+}

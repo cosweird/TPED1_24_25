@@ -1,0 +1,38 @@
+
+        div {
+            box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+        }
+       
+        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 50%;  /* se aplica desde min-width desde 768px */
+            }
+        }        
+        #derecha{
+
+            background-color: red;
+            height: 80vh;
+        }
+
+        #arribaD{
+            background-color: green;
+            height: 40vh;
+
+        }
+
+        #abajoD{
+            background-color: gold;
+            height: 40vh;
+
+        }
+        #izquierda{
+
+            background-color: blue;
+            height: 80vh;
+        }
+#pie{
+
+    background-color: blueviolet;
+    height: 20vh;
+}
