@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+  <title>Galería Modal</title>
+  <link rel="stylesheet" href="style.css">
+<head>
+     <h1 class="titulo">Galería tipográfica</h1>
+
+  <div class="galeria">
+    <img src="img/1.jpg" alt="Tipgrafia modificada" onclick="abrirModal(this)">
+    <img src="img/2.jpg" alt="Lettering trival" onclick="abrirModal(this)">
+    <img src="img/3.jpg" alt="Tipografia liquida" onclick="abrirModal(this)">
+    <img src="img/4.jpg" alt="Lettering trival" onclick="abrirModal(this)">
+    <img src="img/5.jpg" alt="logotipo nube" onclick="abrirModal(this)">
+    <img src="img/6.jpg" alt="Tipografia geométrica" onclick="abrirModal(this)">
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" onclick="cerrarModal()">
+    <span class="cerrar">&times;</span>
+    <img class="modal-contenido" id="img-modal">
+    <div id="descripcion"></div>
+  </div>
+
+  <script >
+
+   function abrirModal(imagen) {
+  const modal = document.getElementById("modal");
+  const modalImg = document.getElementById("img-modal");
+  const descripcion = document.getElementById("descripcion");
+
+  modal.style.display = "block";
+  modalImg.src = imagen.src;
+  descripcion.textContent = imagen.alt;
+}
+
+function cerrarModal() {
+  document.getElementById("modal").style.display = "none";
+}
+  </script>
+     
+    
+</body>
+</html>
