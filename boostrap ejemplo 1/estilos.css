@@ -1,0 +1,17 @@
+
+        div {
+            box-sizing: border-box;
+        }
+       .izquierda {
+            background-color: aqua;
+        }
+        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 500PX;  
+            }
+        }        
+        .derecha{
+
+            background-color: red;
+        }
