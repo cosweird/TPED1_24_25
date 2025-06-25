@@ -9,19 +9,28 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="container">
-      <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
-      <ul class="menu">
-        <li><a href="contacto.html">CONTACTO</a></li>
-        <li><a href="sobre_mi.html">SOBRE MÍ</a></li>
-        <li><a href="proyecto.html">PROYECTOS</a></li>
+    <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="logo" height="40"></a>
+    </div>
+
+    <!-- Botón hamburguesa -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+      <ul class="menu navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre_mi.html">SOBRE MÍ</a></li>
+        <li class="nav-item"><a class="nav-link" href="proyecto.html">PROYECTOS</a></li>
       </ul>
     </div>
-  </nav>
-
-
+  </div>
+</nav>
 
 <section class="sobre-mi container">
 
@@ -125,5 +134,7 @@ Este portfolio reúne algunos de los trabajos que he desarrollado con dedicació
   Carlos Oriente Sánchez — Página web — 2025
 </footer>
   </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

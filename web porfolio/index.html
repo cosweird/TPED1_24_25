@@ -9,17 +9,28 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="container">
-      <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
-      <ul class="menu">
-        <li><a href="contacto.html">CONTACTO</a></li>
-        <li><a href="sobre_mi.html">SOBRE MÍ</a></li>
-        <li><a href="proyecto.html">PROYECTOS</a></li>
+   <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="logo" height="40"></a>
+    </div>
+
+    <!-- Botón hamburguesa -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+      <ul class="menu navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre_mi.html">SOBRE MÍ</a></li>
+        <li class="nav-item"><a class="nav-link" href="proyecto.html">PROYECTOS</a></li>
       </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- HEADER -->
   <header class="headerpinpan">
@@ -46,13 +57,34 @@ Si buscas un diseño cuidado, profesional y adaptado a tus necesidades, estás e
 
   <!-- GALERÍA DE PROYECTOS -->
   <section class="container galeria">
-    <div class="row">
-      <div class="col-md-6  imagen"> <img src="img/5.jpg" alt=""></div>
-      <div class="col-md-6  imagen"> <img src="img/EDITORIAL/smartmockups_lwifd0l5.jpg" alt=""></div>
-      <div class="col-md-6  texto"><a href="proyecto.html" class="enlace">MARCA</a></div>
-      <div class="col-md-6  texto"><a href="proyecto.html" class="enlace">EDITORIAL</a></div>
+  <div class="row">
+    <div class="col-md-6 imagen">
+      <img src="img/5.jpg" alt="">
     </div>
-  </section>
+    <div class="col-md-6 texto">
+      <a href="proyecto.html" class="enlace">MARCA</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 imagen">
+      <img src="img/EDITORIAL/smartmockups_lwiffger.jpg" alt="">
+    </div>
+    <div class="col-md-6 texto">
+      <a href="proyecto.html" class="enlace">EDITORIAL</a>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-6 imagen">
+      <img src="img/cartel/pototototktASA.jpg" alt="">
+    </div>
+    <div class="col-md-6 texto">
+      <a href="proyecto.html" class="enlace">CARTELERIA</a>
+    </div>
+  </div>
+</section>
 
 <footer class="footer">
   Carlos Oriente Sánchez — Página web — 2025
