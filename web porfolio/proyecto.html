@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Carlos Oriente</title>
+  <link rel="stylesheet" href="style-proyecto.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="logo" height="40"></a>
+    </div>
+
+    <!-- Botón hamburguesa -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+      <ul class="menu navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre_mi.html">SOBRE MÍ</a></li>
+        <li class="nav-item"><a class="nav-link" href="proyecto.html">PROYECTOS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="proyectos container">
+
+  <h2 class="seccion-titulo" onclick="toggleGaleria('marca')">MARCA</h2>
+  <div id="marca" class="galeria d-none">
+    <div class="row">
+      <div class="col-md-4"><div class="imagen"><img src="img/562132333333.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/Coffee-Cup-Bag-Mockup.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/m010t217_paper_food_box_4.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/basos.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/cccccccc.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/Tote-Bag-Mockup-222.png" alt=""></div></div>
+    </div>
+  </div>
+
+  <h2 class="seccion-titulo" onclick="toggleGaleria('carteleria')">CARTELERÍA</h2>
+  <div id="carteleria" class="galeria d-none">
+    <div class="row">
+      <div class="col-md-4"><div class="imagen"><img src="img/cartel/arcane ekko cara.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/cartel/Avant garden- IMPRIMIR.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/cartel/cartel-the one.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/cartel/fotomontaje.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/cartel/Sin título-1.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/cartel//weird.jpg" alt=""></div></div>
+    </div>
+  </div>
+
+  <h2 class="seccion-titulo " onclick="toggleGaleria('packaging')">EDITORIAL</h2>
+  <div id="packaging" class="galeria d-none">
+    <div class="row">
+      <div class="col-md-4"><div class="imagen"><img src="img/EDITORIAL/revista rebel.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/EDITORIAL/smartmockups_lwifc2ex.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/EDITORIAL/smartmockups_lwifd0l5.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/EDITORIAL/smartmockups_lwifefea.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/EDITORIAL/smartmockups_lwifk9t6.jpg" alt=""></div></div>
+      <div class="col-md-4"><div class="imagen"><img src="img/EDITORIAL/smartmockups_lwifjkht.jpg" alt=""></div></div>
+    </div>
+  </div>
+
+  
+</section>
+
+<footer class="footer">
+  Carlos Oriente Sánchez — Página web — 2025
+</footer>
+
+<script>
+  function toggleGaleria(id) {
+    const galeria = document.getElementById(id);
+    galeria.classList.toggle('d-none');
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
