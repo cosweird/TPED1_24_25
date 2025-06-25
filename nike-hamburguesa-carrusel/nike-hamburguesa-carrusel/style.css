@@ -1,0 +1,80 @@
+h1{
+
+font-family:"Open Sans", sans-serif;
+font-size: 40pt;
+
+}
+
+img{
+width: 100%;
+height: auto;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s, text-decoration 0.3s;
+
+}
+
+a[href]:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a[href="#"]:hover {
+  color: red;
+  text-decoration: line-through;
+}
+
+#texto1{
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14pt;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 400px;
+}
+
+#texto2{
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10pt;
+  color: rgb(207, 207, 207);
+ 
+}
+
+#texto3{
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10pt;
+  color: rgb(207, 207, 207);
+}
+
+ ul{
+  list-style-type:  none;
+
+ }
+li{
+  margin-bottom: 20px;
+}
+
+
+.navbar-brand{
+
+width: 130PX;
+height: auto;
+
+}
+
+.nav-link{
+
+    text-align: right;
+    }
+    
